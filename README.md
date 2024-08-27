@@ -84,11 +84,14 @@ Browsersyncは変更ファイルを監視して、自動でブラウザリロー
 localhost:8000にアクセスをすることで、Browsersyncを介さないサーバー接続ができます。
 
 
-# gitのコマンド
-git init => Gitと接続
-git add . =>gitにcommitするために上げる
-git commit -m " " => commit名を決めcommit
-git push => commitをpushさせる
+# 初回gitのコマンド
+1. git init => git初期化
+2. git remote add origin URL
+3. git add . =>gitにステージング
+4. git commit -m "" => commitを作成
+5. git push --set-upstream origin main  => 初回push => git push => 2回目以降のpush
+6. git branch <ブランチ名> => ブランチ作成<>は必要なし 例:feature/test
+7. git checkout <ブランチ名> => ブランチに移動
+8. git push => ブランチの変更をpush
 
-git branch <ブランチ名> => ブランチ作成<>は必要なし 例:feature/test
-git checkout <ブランチ名> => ブランチに移動
+git push => 2回目以降のpush
