@@ -84,7 +84,7 @@ Browsersyncは変更ファイルを監視して、自動でブラウザリロー
 localhost:8000にアクセスをすることで、Browsersyncを介さないサーバー接続ができます。
 
 
-gitのコマンド
+# gitのコマンド
 git init => Gitと接続
 git add . =>gitにcommitするために上げる
 git commit -m " " => commit名を決めcommit
