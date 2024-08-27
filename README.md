@@ -83,6 +83,12 @@ Browsersyncは変更ファイルを監視して、自動でブラウザリロー
 ダッシュボードの操作 => http://localhost:8000/
 localhost:8000にアクセスをすることで、Browsersyncを介さないサーバー接続ができます。
 
-# Git命名規則
-コーディング規約 1.命名規則  4.gitを参照してください。
-https://docs.google.com/spreadsheets/d/1SDUZHYMuJBaRMfQfxD4B345xt1jr4ttDJAHjsK4i-uk/edit?gid=264960314#gid=264960314
+
+gitのコマンド
+git init => Gitと接続
+git add . =>gitにcommitするために上げる
+git commit -m " " => commit名を決めcommit
+git push => commitをpushさせる
+
+git branch <ブランチ名> => ブランチ作成<>は必要なし 例:feature/test
+git checkout <ブランチ名> => ブランチに移動
