@@ -10,6 +10,7 @@ global $astUrl;
  * @package WordPress
  */
 ?>
+
 <?php get_header(); ?>
 
 <div class="l-container">
